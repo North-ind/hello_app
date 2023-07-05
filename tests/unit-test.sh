@@ -1,12 +1,13 @@
 #!/bin/bash
+cd ../
 python -m pip install --upgrade pip
 pip install -r ../requirements.txt
-python ../hello_app/app.py &
+python hello_app/app.py &
 response=$(curl http://127.0.0.1:5000/)
 expected_response="2023-07-05"
 
 if [ "$response" != "$expected_response" ]; then
-  echo "Neudacha"
+  echo "NEUDACHA"
 else
   echo "Udacha"
 fi
