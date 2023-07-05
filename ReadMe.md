@@ -1,1 +1,1 @@
-[![Tests](https://github.com/North-ind/hello_app/actions/workflows/unit-te.yml/badge.svg)](https://github.com/North-ind/hello_app/actions/workflows/unit-te.yml)
+[![Pull Request To Dev](https://github.com/North-ind/hello_app/actions/workflows/unit-te.yml/badge.svg)](https://github.com/North-ind/hello_app/actions/workflows/unit-te.yml)
