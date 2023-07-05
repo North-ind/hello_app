@@ -3,7 +3,7 @@ run-name: Run Integration Tests
 on:
   push:
     branches:
-      - dev
+      - main
 jobs:
   run:
     name: Run hello_app.py
